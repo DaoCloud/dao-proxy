@@ -1,6 +1,6 @@
 {
-	"ImportPath": ".",
-	"GoVersion": "go1.4",
+	"ImportPath": "github.com/DaoCloud/dao-proxy",
+	"GoVersion": "go1.5.2",
 	"Packages": [
 		"gopkg.in/fsnotify.v1"
 	],
