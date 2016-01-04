@@ -1,5 +1,7 @@
 FROM golang:1.5.2
 
+MAINTAINER Kay.Yan <kay.yan@daocloud.io> 
+
 COPY . /go/src/github.com/DaoCloud/dao-proxy
 WORKDIR /go/src/github.com/DaoCloud/dao-proxy
 
