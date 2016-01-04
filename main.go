@@ -15,8 +15,12 @@ package main
 
 import (
 	"fmt"
+	"gopkg.in/fsnotify.v1"
 )
 
 func main() {
+	_, err := fsnotify.NewWatcher()
+	if err != nil {
+	}
 	fmt.Println("!selpmaxe oG ,olleH")
 }

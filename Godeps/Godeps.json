@@ -1,0 +1,19 @@
+{
+	"ImportPath": ".",
+	"GoVersion": "go1.4",
+	"Packages": [
+		"gopkg.in/fsnotify.v1"
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/go-fsnotify/fsnotify",
+			"Comment": "v1.2.8",
+			"Rev": "508915b7500b6e42a87132e4afeb4729cebc7cbb"
+		},
+		{
+			"ImportPath": "gopkg.in/fsnotify.v1",
+			"Comment": "v1.2.8",
+			"Rev": "508915b7500b6e42a87132e4afeb4729cebc7cbb"
+		}
+	]
+}
